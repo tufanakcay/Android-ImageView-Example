@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int rnd = (int)(Math.random()*5+1);
+                int rnd = (int) (Math.random() * 5 + 1);
 
                 imageChange(rnd);
             }
