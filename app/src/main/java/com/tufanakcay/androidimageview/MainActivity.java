@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 int rnd = (int) (Math.random() * 5 + 1);
 
                 imageChange(rnd);
+
+                Toast.makeText(MainActivity.this, "Image number " + rnd, Toast.LENGTH_SHORT).show();
             }
         });
     }
