@@ -20,14 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         initiation();
         click();
-
     }
 
     private void initiation() {
 
         imageView = findViewById(R.id.image_view);
         button = findViewById(R.id.change_button);
-
     }
 
     private void click() {
@@ -47,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void imageChange(int num) {
 
-
         if (num == 1) {
 
             imageView.setImageResource(R.drawable.one);
@@ -60,6 +57,5 @@ public class MainActivity extends AppCompatActivity {
         } else {
             imageView.setImageResource(R.drawable.five);
         }
-
     }
 }
